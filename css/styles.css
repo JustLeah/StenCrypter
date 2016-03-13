@@ -1,0 +1,131 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'Titillium Web', sans-serif;
+}
+a:hover{
+	cursor: pointer;
+}
+#main-container{
+	width:100%;
+	height:550px;
+	background-color:#272822;
+	color:#fff;
+	font-family: 'Titillium Web', sans-serif;
+	float:left;
+}
+
+#title{
+	text-align: center;
+	width:100%;
+	padding-top:25px;
+	font-size: 25px;
+}
+
+#strapline{
+	text-align: center;
+	width:100%;
+	padding-top:0px;
+	font-size: 16px;
+}
+
+#feature-container{
+	width:100%;
+}
+
+#feature-title{
+	text-align: center;
+	width:100%;
+	padding-top:10px;
+	font-size: 14px;
+
+}
+
+.button{
+	width:150px;
+	height:50px;
+	border:3px solid #60D9F1;
+	margin:0 auto;
+	margin-top:30px;
+}
+
+.button > p{
+	text-align:center;
+	padding-top:12px;
+}
+
+#footer{
+	color:white;
+	background-color:#3E3E3C;
+	width:100%;
+	height:53px;
+	float:left;
+	padding-top:7px;
+}
+
+#footer-text{
+	float:right;
+	padding-top:12px;
+	margin-right:10px;
+}
+#footer-logo{
+	float:right;
+}
+
+#footer-logo img{
+	width:50px;
+	height:50px;
+	margin-right:5px;
+}
+
+#loading-gif{
+	width:150px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+#loading-gif > img{
+	margin:0 auto;
+	width:150px;
+	height:auto;
+}
+
+#step-title{
+	color:#3CFC96;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin-top:15px;
+	font-weight: 600;
+}
+
+#home-icon{
+	float:left;
+	margin-left:10px;
+}
+
+#home-icon img{
+	width:35px;
+	height:35px;
+	float:left;
+	margin-top:5px;
+}
+
+#message-to-encrypt{
+	width:300px;
+	margin:0 auto;
+}
+
+#message-to-encrypt > textarea{
+	width:300px;
+	height:150px;
+	margin-top:20px;
+	resize:vertical;
+}
+
+#message-to-encrypt input{
+	margin:0 auto;
+}
+#preload-01 { background: url(../images/loading.gif) no-repeat -9999px -9999px; }
+
+iframe { overflow:hidden; }
